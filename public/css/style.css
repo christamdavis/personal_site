@@ -51,7 +51,27 @@ body{
   background: #ea4335;
   color: white;
 }
-/* contact form */
-#contact-form{
+
+/*resume.html*/
+h3 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        h3:before,
+        h3:after {
+            content: "";
+            flex: 1 1;
+            border-bottom: 2px solid #FFF;
+            margin: auto;
+        }
+
+#education-container{
+  color:white;
+}
+#work-container{
+  color:white;
+}
+#skills-container{
   color:white;
 }
